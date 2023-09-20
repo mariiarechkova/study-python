@@ -1,0 +1,11 @@
+string = "Abrakadabra"
+str = list(string)
+print(str[2])
+print(str[-2])
+print(''.join(str[0:5]))
+print(''.join(str[:-2]))
+print(''.join(str[::2]))
+print(''.join(str[1::2]))
+print(''.join(reversed(str)))
+print(''.join(reversed(str[::2])))
+print(len(str))
