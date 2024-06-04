@@ -1,3 +1,3 @@
 string = "12345"
-str = list(string)
-print(''.join(str[::2]))
+qwerty = list(string)
+print(''.join(qwerty[::2]))
